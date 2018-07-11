@@ -1,0 +1,11 @@
+E:\My_Projects\AZLinli.ORM\AZLlili.ORM.SQLite\bin\Debug\AZLlili.ORM.SQLite.dll
+E:\My_Projects\AZLinli.ORM\AZLlili.ORM.SQLite\bin\Debug\AZLlili.ORM.SQLite.pdb
+E:\My_Projects\AZLinli.ORM\AZLlili.ORM.SQLite\bin\Debug\AZLinli.ORM.dll
+E:\My_Projects\AZLinli.ORM\AZLlili.ORM.SQLite\bin\Debug\System.Data.SQLite.dll
+E:\My_Projects\AZLinli.ORM\AZLlili.ORM.SQLite\bin\Debug\AZLinli.ORM.pdb
+E:\My_Projects\AZLinli.ORM\AZLlili.ORM.SQLite\bin\Debug\System.Data.SQLite.xml
+E:\My_Projects\AZLinli.ORM\AZLlili.ORM.SQLite\obj\Debug\AZLlili.ORM.SQLite.csprojResolveAssemblyReference.cache
+E:\My_Projects\AZLinli.ORM\AZLlili.ORM.SQLite\obj\Debug\AZLlili.ORM.SQLite.csproj.CoreCompileInputs.cache
+E:\My_Projects\AZLinli.ORM\AZLlili.ORM.SQLite\obj\Debug\AZLlili.ORM.SQLite.csproj.CopyComplete
+E:\My_Projects\AZLinli.ORM\AZLlili.ORM.SQLite\obj\Debug\AZLlili.ORM.SQLite.dll
+E:\My_Projects\AZLinli.ORM\AZLlili.ORM.SQLite\obj\Debug\AZLlili.ORM.SQLite.pdb

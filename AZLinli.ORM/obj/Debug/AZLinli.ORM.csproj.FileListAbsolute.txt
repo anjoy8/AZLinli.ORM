@@ -1,0 +1,5 @@
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM\bin\Debug\AZLinli.ORM.dll
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM\bin\Debug\AZLinli.ORM.pdb
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM\obj\Debug\AZLinli.ORM.csproj.CoreCompileInputs.cache
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM\obj\Debug\AZLinli.ORM.dll
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM\obj\Debug\AZLinli.ORM.pdb

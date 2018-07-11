@@ -1,0 +1,9 @@
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM.MSSQL\bin\Debug\AZLinli.ORM.MSSQL.dll
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM.MSSQL\bin\Debug\AZLinli.ORM.MSSQL.pdb
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM.MSSQL\bin\Debug\AZLinli.ORM.dll
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM.MSSQL\bin\Debug\AZLinli.ORM.pdb
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM.MSSQL\obj\Debug\AZLinli.ORM.MSSQL.csprojResolveAssemblyReference.cache
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM.MSSQL\obj\Debug\AZLinli.ORM.MSSQL.csproj.CoreCompileInputs.cache
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM.MSSQL\obj\Debug\AZLinli.ORM.MSSQL.csproj.CopyComplete
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM.MSSQL\obj\Debug\AZLinli.ORM.MSSQL.dll
+E:\My_Projects\AZLinli.ORM\AZLinli.ORM.MSSQL\obj\Debug\AZLinli.ORM.MSSQL.pdb

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B6612CBA-4CF9-4AF1-860F-1C5804AC53E9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AZLinli.ORM</RootNamespace>
+    <AssemblyName>AZLinli.ORM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attri\ColumnAttribute.cs" />
+    <Compile Include="Attri\KeyAttribute.cs" />
+    <Compile Include="Attri\NotColumnAttribute.cs" />
+    <Compile Include="Attri\SequenceAttribute.cs" />
+    <Compile Include="Attri\TableAttribute.cs" />
+    <Compile Include="Cache\Base\BaseCache.cs" />
+    <Compile Include="Cache\Base\CacheExpire.cs" />
+    <Compile Include="Cache\Base\IBaseCache.cs" />
+    <Compile Include="Cache\Caches.cs" />
+    <Compile Include="Cache\ConstructorCache.cs" />
+    <Compile Include="Cache\DaoCache.cs" />
+    <Compile Include="Cache\EntityInfoCache.cs" />
+    <Compile Include="Cache\PropertyAccessorCache.cs" />
+    <Compile Include="Cache\PropertyAccessor\IPropertyAccessor.cs" />
+    <Compile Include="Cache\PropertyAccessor\MethodInvoker.cs" />
+    <Compile Include="Cache\PropertyAccessor\PropertyAccessorExpression.cs" />
+    <Compile Include="DataAccess\Dialect\ISqlDialect.cs" />
+    <Compile Include="DataAccess\Function\SqlFunctions.cs" />
+    <Compile Include="DataAccess\IDatabase.cs" />
+    <Compile Include="DataAccess\IDbContext.cs" />
+    <Compile Include="DataAccess\Join\DynamicMember.cs" />
+    <Compile Include="DataAccess\Join\JoinRelation.cs" />
+    <Compile Include="DataAccess\Join\TableSelect.cs" />
+    <Compile Include="DataAccess\SQL\PageFilter.cs" />
+    <Compile Include="DataAccess\SQL\SqlConstructor.cs" />
+    <Compile Include="DataAccess\SQL\SubQuery.cs" />
+    <Compile Include="DataAccess\SQL\WhereBuilder.cs" />
+    <Compile Include="DataAccess\Visitor\DynamicVisitor.cs" />
+    <Compile Include="DataAccess\Visitor\ExpressionExtension.cs" />
+    <Compile Include="DataAccess\Visitor\IVisitor.cs" />
+    <Compile Include="DataAccess\Visitor\MemberTypeVisitor.cs" />
+    <Compile Include="DataAccess\Visitor\OrderByVisitor.cs" />
+    <Compile Include="DataAccess\Visitor\ReplaceExpressionVisitor.cs" />
+    <Compile Include="Enum\DataBaseType.cs" />
+    <Compile Include="Enum\DateDiffType.cs" />
+    <Compile Include="Enum\JoinLinkType.cs" />
+    <Compile Include="Enum\SelectType.cs" />
+    <Compile Include="Enum\VisitorType.cs" />
+    <Compile Include="Exception\ConditionErrorException.cs" />
+    <Compile Include="Exception\KeyLossException.cs" />
+    <Compile Include="Exception\LambdaLossException.cs" />
+    <Compile Include="ILReader\ByteBuffer.cs" />
+    <Compile Include="ILReader\Disassembler.cs" />
+    <Compile Include="ILReader\Instruction.cs" />
+    <Compile Include="ILReader\MethodBodyReader.cs" />
+    <Compile Include="PageDataSource.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="Transaction\DNetTransaction.cs" />
+    <Compile Include="Transaction\ITransaction.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,12 @@
+E:\My_Projects\AZLinli.ORM\DEMO\bin\Debug\DEMO.exe.config
+E:\My_Projects\AZLinli.ORM\DEMO\bin\Debug\DEMO.exe
+E:\My_Projects\AZLinli.ORM\DEMO\bin\Debug\DEMO.pdb
+E:\My_Projects\AZLinli.ORM\DEMO\bin\Debug\AZLinli.ORM.dll
+E:\My_Projects\AZLinli.ORM\DEMO\bin\Debug\AZLinli.ORM.MSSQL.dll
+E:\My_Projects\AZLinli.ORM\DEMO\bin\Debug\AZLinli.ORM.MSSQL.pdb
+E:\My_Projects\AZLinli.ORM\DEMO\bin\Debug\AZLinli.ORM.pdb
+E:\My_Projects\AZLinli.ORM\DEMO\obj\Debug\DEMO.csprojResolveAssemblyReference.cache
+E:\My_Projects\AZLinli.ORM\DEMO\obj\Debug\DEMO.csproj.CoreCompileInputs.cache
+E:\My_Projects\AZLinli.ORM\DEMO\obj\Debug\DEMO.csproj.CopyComplete
+E:\My_Projects\AZLinli.ORM\DEMO\obj\Debug\DEMO.exe
+E:\My_Projects\AZLinli.ORM\DEMO\obj\Debug\DEMO.pdb
