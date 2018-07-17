@@ -78,7 +78,7 @@ namespace AZLinli.ORM.Cache
             StringBuilder sqlBuilder = new StringBuilder();
             foreach (string columnKey in dicColumn.Keys)
             {
-                sqlBuilder.AppendFormat("{2}.{0} AS {1},", dicColumn[columnKey], columnKey, entityInfo.TableName);
+                sqlBuilder.AppendFormat("{2}.[{0}] AS [{1}],", dicColumn[columnKey], columnKey, entityInfo.TableName);
             }
             entityInfo.SelectFields = sqlBuilder.ToString().TrimEnd(',');
             sqlBuilder.Clear();
