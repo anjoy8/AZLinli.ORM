@@ -1,5 +1,4 @@
-﻿using AZLinli.ORM;
-using AZLinli.ORM.DataAccess;
+﻿using AZLinli.ORM.DataAccess;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
@@ -50,7 +49,7 @@ namespace DEMO
                 var effect = db.Update(author);
             }
 
-            //ADD
+            //ADD 
             User user = new User()
             {
                 uLoginName="zhagnsan"+Guid.NewGuid().ToString(),
