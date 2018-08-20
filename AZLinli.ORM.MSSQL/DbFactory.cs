@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -48,7 +49,7 @@ namespace AZLinli.ORM.DataAccess
                     }
                     ConnectionStringSettings connSetting = ConfigurationManager.ConnectionStrings[connectionName];
 
-                    dbConnectionString = connSetting.ConnectionString;
+                    dbConnectionString = File.ReadAllText(connSetting.ConnectionString).Split(new char[] { '\r', '\n' }).Where(d=>d.Split('|')[0]== connectionName).Select(d=>d.Split('|')[1]).FirstOrDefault();
                     dbProviderName = connSetting.ProviderName;
                 }
                 return dbConnectionString;
