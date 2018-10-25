@@ -9,16 +9,6 @@ AZLinli.ORM
         static void Main(string[] args)
         {
             AZLinContext db = new AZLinContext();
-            StringBuilder sql = new StringBuilder();
-            List<DbParameter> parameters = new List<DbParameter>();
-
-            //sql.AppendFormat(@"SELECT {0} from User WHERE ", "*");
-            //sql.Append(" uID>@uID ");
-            //parameters.Add(db.GetDbParameter("uID", 0));
-
-            //PageFilter pageFilter = new PageFilter { PageIndex = 1, PageSize = 5 };
-            //pageFilter.OrderText = "uID ASC";
-            //PageDataSource<User> books = db.GetPage<User>(sql.ToString(), pageFilter, parameters.ToArray());
 
             //test git update
 
@@ -61,6 +51,22 @@ AZLinli.ORM
 
             Console.WriteLine($"name:uID,value:{data}");
 
+
+
+
+            //StringBuilder sql = new StringBuilder();
+            //List<DbParameter> parameters = new List<DbParameter>();
+
+            //sql.AppendFormat(@"SELECT {0} from User WHERE ", "*");
+            //sql.Append(" uID>@uID ");
+            //parameters.Add(db.GetDbParameter("uID", 0));
+
+            //PageFilter pageFilter = new PageFilter { PageIndex = 1, PageSize = 5 };
+            //pageFilter.OrderText = "uID ASC";
+            //PageDataSource<User> books = db.GetPage<User>(sql.ToString(), pageFilter, parameters.ToArray());
+            
+            
+            
             Console.ReadKey();
             
         }
