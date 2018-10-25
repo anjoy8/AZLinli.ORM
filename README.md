@@ -12,7 +12,7 @@ AZLinli.ORM
 
             //test git update
 
-            //Model
+            //Model 获取实体对象
             var model = db.GetSingle<User>(m => m.uID == 3);
             if (model!=null)
             {
@@ -20,7 +20,7 @@ AZLinli.ORM
                 Console.WriteLine($"name:uID,value:{item.uID} \t name:uLoginName,value:{item.uLoginName} \t name:uLoginPWD,value:{item.uLoginPWD} \t name:uRealName,value:{item.uRealName} \t name:uUpdateTime,value:{item.uUpdateTime} \t name:uCreateTime,value:{item.uCreateTime}");
             }
 
-            //Select
+            //Select 查询
             List<User> bks = db.GetList<User>(m => true, q => q.OrderBy(m => m.uID));
             foreach (var item in bks)
             {
@@ -28,7 +28,7 @@ AZLinli.ORM
              
             }
 
-            //Update
+            //Update 更新
             var author = db.GetSingle<User>(m => true, q => q.OrderBy(m => m.uID));
             if (author != null)
             {
@@ -36,7 +36,7 @@ AZLinli.ORM
                 var effect = db.Update(author);
             }
 
-            //ADD 
+            //Add 添加
             User user = new User()
             {
                 uLoginName="zhagnsan"+Guid.NewGuid().ToString(),
